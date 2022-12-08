@@ -6,7 +6,7 @@
   <style> @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); </style>
  
   @vite('resources/css/app.css')
-  <title >Walhi | Home </title>
+  <title >WALHI | Home </title>
 </head>
 <body class="bg-gradient-to-b from-emerald-300 via-primary to-emerald-300">
 {{-- Navbar  start --}}

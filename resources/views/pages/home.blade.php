@@ -9,7 +9,7 @@
     {{-- Bagian Kanan --}}
     <div class="w-full self-center px-4 lg:w-1/2">
     <h1 class="text-xl font-Inter font-semibold md:text-2xl lg:text-3xl text-white">Selamat Datang di Platform</h1>
-    <h1 class="text-3xl font-Inter mb-5 md:text-3xl lg:text-5xl text-white font-semibold ">PANTAU <span class="block">LINGKUNGAN</span></h1>
+    <h1 class="text-3xl font-Inter mb-5 md:text-3xl lg:text-5xl text-green2 font-semibold ">PANTAU <span class="block">LINGKUNGAN</span></h1>
     <h2 class="text-xl font-Inter mb-10 text-white font-semibold">Pantau Lingkungan  merupakan platform data interaktf milik WALHI.</h2>
 
     {{-- Button search and location --}}

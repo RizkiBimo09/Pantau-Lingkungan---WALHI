@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style> @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); </style>
- 
+  <script type="text/javascript" src="{{ URL::asset('js/jquery-3.6.1.js') }}"></script>
+  
   @vite('resources/css/app.css')
   <title >WALHI | Home </title>
 </head>
@@ -25,22 +26,22 @@
     <nav id="nav-menu" class="hidden absolute py-5 bg-green2 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
       <ul class="block lg:flex">
       <li class="group">
-      <a href="#home" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter  flex">BERANDA </a>
+      <a href="/" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter  flex">BERANDA </a>
       </li>
       <li class="group">
-      <a href="#home" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">PANTAU LINGKUNGAN </a>
+      <a href="/pLingkungan" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">PANTAU LINGKUNGAN </a>
       </li>
       <li class="group">
       <a href="#home" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">DASHBOARD </a>
       </li>
       <li class="group">
-      <a href="#home" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">ARTIKEL </a>
+      <a href="/artikel" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">ARTIKEL </a>
       </li>
       <li class="group">
-      <a href="#home" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">LAPOR </a>
+      <a href="/lapor" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">LAPOR </a>
       </li>
       <li class="group">
-      <a href="#home" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">FAQ </a>
+      <a href="/faq" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">FAQ </a>
       </li>
       </ul>
     </nav>
@@ -63,12 +64,12 @@
   </div>
   <div class="w-full px-4 mb-12 md:w-1/3">
       <h2 class="font-bold text-2xl mb-5 text-green2">MENU</h2>
-      <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="#">BERANDA</a></h3>
-      <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="#">PANTAU LINGKUNGAN</a></h3>
+      <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/">BERANDA</a></h3>
+      <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/pLingkungan">PANTAU LINGKUNGAN</a></h3>
       <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="#">DASHBOARD</a></h3>
-      <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="#">ARTIKEL</a></h3>
-      <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="#">LAPOR</a></h3>
-      <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="#">FAQ</a></h3>
+      <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/artikel">ARTIKEL</a></h3>
+      <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/lapor">LAPOR</a></h3>
+      <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/faq">FAQ</a></h3>
   </div>
   <div class="w-full px-4 mb-12 md:w-1/3">
       <h2 class="font-bold text-2xl mb-5 text-green2">KONTAK KAMI</h2>

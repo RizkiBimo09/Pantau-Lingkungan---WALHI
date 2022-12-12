@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style> @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); </style>
   <script type="text/javascript" src="{{ URL::asset('js/jquery-3.6.1.js') }}"></script>
-  
+
   @vite('resources/css/app.css')
   <title >WALHI | Home </title>
 </head>
@@ -74,16 +74,16 @@
   <div class="w-full px-4 mb-12 md:w-1/3">
       <h2 class="font-bold text-2xl mb-5 text-green2">KONTAK KAMI</h2>
       <h3 class="font-bold text-base mb-8 text-white font-Inter">
-      <img class="inline-block" src="{{ asset('images/logo/email-logo.png') }}" alt="email-logo"> informasi@walhi.or.id
+      <a href="mailto:informasi@walhi.or.id"><img class="inline-block" src="{{ asset('images/logo/email-logo.png') }}" alt="email-logo"> informasi@walhi.or.id </a>
       </h3>
       <h3 class="font-bold text-base mb-8 ml-5 text-white font-Inter">
-      <img class="inline-block" src="{{ asset('images/logo/facebook-logo.png') }}" alt="facebook-logo">   WALHI
+      <a href="https://web.facebook.com/WALHI"><img class="inline-block" src="{{ asset('images/logo/facebook-logo.png') }}" alt="facebook-logo"> WALHI</a>
       </h3>
       <h3 class="font-bold text-base mb-8 text-white font-Inter">
-      <img class="inline-block" src="{{ asset('images/logo/twitter-logo.png') }}" alt="twitter-logo"> @ walhinasional
+      <a href="https://twitter.com/walhinasional?t=ljAeOicyTWa0Sh17qnq4Eg&s=08"><img class="inline-block" src="{{ asset('images/logo/twitter-logo.png') }}" alt="twitter-logo"> @ walhinasional </a>
       </h3>
       <h3 class="font-bold text-base mb-8 text-white font-Inter">
-      <img class="inline-block" src="{{ asset('images/logo/ig-logo.png') }}" alt="instagram-logo"> @ walhi.nasional
+      <a href="https://www.instagram.com/walhi.nasional/"><img class="inline-block" src="{{ asset('images/logo/ig-logo.png') }}" alt="instagram-logo"> @ walhi.nasional</a>
       </h3>
   </div>
   </div>

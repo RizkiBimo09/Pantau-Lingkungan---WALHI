@@ -76,16 +76,19 @@
     <h1 class="font-bold mb-5 text-white mt-5 font-Inter text-xl ">Judul Artikel 1</h1>
     <p class="font-semibold text-white  font-Inter text-base mb-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut molestias aliquam corrupti reiciendis itaque modi! Culpa laborum consequatur fugit illum possimus alias deserunt hic, quod explicabo tempore sit voluptatem odit nobis dicta, illo corrupti accusantium corporis! Vero deserunt quos mollitia, earum atque, voluptatem est optio amet quasi rem aut accusantium?</p>
       <small><a href="#" class="text-green2 font-Inter font-semibold">Selengkapnya</a></small>
+      <span class=" mt-5 flex text-sm text-white font-semibold">09-11-2022</span>
     </div>
     <div class="w-full px-4 mb-10 lg:w-1/3">
     <h1  class="font-bold mb-5 text-white mt-5 font-Inter text-xl">Judul Artikel 2</h1>
     <p class="font-semibold text-white  font-Inter text-base mb-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut molestias aliquam corrupti reiciendis itaque modi! Culpa laborum consequatur fugit illum possimus alias deserunt hic, quod explicabo tempore sit voluptatem odit nobis dicta, illo corrupti accusantium corporis! Vero deserunt quos mollitia, earum atque, voluptatem est optio amet quasi rem aut accusantium?</p>
     <small><a href="#" class="text-green2 font-Inter font-semibold">Selengkapnya</a></small>
+    <span class=" mt-5 flex text-sm text-white font-semibold">09-11-2022</span>
     </div>
     <div class="w-full px-4 lg:w-1/3">
     <h1  class="font-bold mb-5 text-white mt-5 font-Inter text-xl ">Judul Artikel 3</h1>
     <p class="font-semibold text-white  font-Inter text-base mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut molestias aliquam corrupti reiciendis itaque modi! Culpa laborum consequatur fugit illum possimus alias deserunt hic, quod explicabo tempore sit voluptatem odit nobis dicta, illo corrupti accusantium corporis! Vero deserunt quos mollitia, earum atque, voluptatem est optio amet quasi rem aut accusantium?</p>
       <small><a href="#" class="text-green2 font-Inter font-semibold">Selengkapnya</a></small>
+      <span class=" mt-5 flex text-sm text-white font-semibold">09-11-2022</span>
     </div>
      <div class="max-w-xl mx-auto text-center mt-2">
       <a href="#" class="text-base font-semibold text-black font-Inter bg-green2 shadow-lg py-3 px-8 rounded-full hover:shadow-lg  hover:opacity-80 transition duration-300 ease-in-out ">Lihat Selengkapnya</a>

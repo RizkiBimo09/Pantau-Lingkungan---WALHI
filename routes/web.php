@@ -20,3 +20,5 @@ Route::get('/artikel', [WalhiController::class, 'Artikel']);
 Route::get('/detailartikel', [WalhiController::class, 'DetailArtikel']);
 Route::get('/lapor', [WalhiController::class, 'Lapor']);
 Route::get('/faq', [WalhiController::class, 'Faq']);
+Route::get('/dashboard', [WalhiController::class, 'Dashboard']);
+

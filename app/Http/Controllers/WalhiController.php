@@ -23,7 +23,7 @@ class WalhiController extends Controller
     // menampilkan halaman dashboard
     public function Dashboard()
     {
-        return view('pages.dashboard', [
+        return view('pages.Dashboard', [
             'title' => 'Dashboard'
         ]);
     }

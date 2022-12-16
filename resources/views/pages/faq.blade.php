@@ -18,21 +18,41 @@
     <div class="container">
         <div class="w-full px-4 mb-8 mt-5 ">
             <div class="w-full px-4 bg-primary py-3 block">
-            <h4 class="text-lg font-semibold text-white inline-block">Apa yang dimaksud Pantau Lingkungan?</h4> 
+            <h4 class="text-lg font-semibold text-white inline-block">Apa yang dimaksud dengan Walhi?</h4> 
             <button type="button" id="btn1" class="btn1 text-white   hover:focus:ring-2 hover:focus:outline-primary hover:focus:ring-primary font-medium rounded-lg text-sm text-center inline-flex float-right items-center mr-2"><img src="{{ asset('images/options.png') }}" alt="options">
             </button>
             <div id="quest1" class="container">
-            <p class="font-semibold text-white text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, quisquam!</p>
+            <p class="font-semibold text-white text-base">Wahana Lingkungan Hidup Indonesia (WALHI) sebagai organisasi lingkungan hidup memiliki mandat untuk perlindungan dan pengembangan wilayah kelola rakyat. Wilayah Kelola Rakyat (WKR) merupakan satu sistem pengelolaan wilayah tertentu yang integratif dan partisipatif baik dalam hal tata kuasa, kelola, produksi, dan konsumsi.</p>
             </div>
             </div>
         </div>
         <div class="w-full px-4 mb-8 mt-5 ">
             <div class="w-full px-4 bg-primary py-3 block">
-            <h4 class="text-lg font-semibold text-white inline-block">Apa tujuan dan manfaat dari Platform Pantau Lingkungan?</h4> 
+            <h4 class="text-lg font-semibold text-white inline-block">Apa tujuan dari Platform Walhi</h4> 
             <button type="button" class="btn2 text-white   hover:focus:ring-2 hover:focus:outline-primary hover:focus:ring-primary font-medium rounded-lg text-sm text-center inline-flex float-right items-center mr-2"><img src="{{ asset('images/options.png') }}" alt="options">
             </button>
             <div id="quest2" class="container">
-            <p class="font-semibold text-white text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus impedit suscipit cum atque! Veniam in, facilis ut tenetur repellendus saepe dolor quae? Dolor eum vel corporis! Reprehenderit vero dolore provident.</p>
+            <p class="font-semibold text-white text-base">Tujuan dari walhi adalah untuk mewujudkan kemakmuran, keadilan, dan keberlanjutan makhluk hidup (manusia dan non-manusia) di Indonesia.</p>
+            </div>
+            </div>
+        </div>
+        <div class="w-full px-4 mb-8 mt-5 ">
+            <div class="w-full px-4 bg-primary py-3 block">
+            <h4 class="text-lg font-semibold text-white inline-block">Apa manfaat dari Walhi</h4> 
+            <button type="button" class="btn2 text-white   hover:focus:ring-2 hover:focus:outline-primary hover:focus:ring-primary font-medium rounded-lg text-sm text-center inline-flex float-right items-center mr-2"><img src="{{ asset('images/options.png') }}" alt="options">
+            </button>
+            <div id="quest2" class="container">
+            <p class="font-semibold text-white text-base">Memperkuat dan memperluas wilayah kelola rakyat untuk mewujudkan perlindungan hak rakyat dalam tata kelola sumber daya alam dan lingkungan hidup yang sehat, adil dan berkelanjutan di Indonesia</p>
+            </div>
+            </div>
+        </div>
+        <div class="w-full px-4 mb-8 mt-5 ">
+            <div class="w-full px-4 bg-primary py-3 block">
+            <h4 class="text-lg font-semibold text-white inline-block">Apa fungsi dari Pantau Lingkungan?</h4> 
+            <button type="button" class="btn2 text-white   hover:focus:ring-2 hover:focus:outline-primary hover:focus:ring-primary font-medium rounded-lg text-sm text-center inline-flex float-right items-center mr-2"><img src="{{ asset('images/options.png') }}" alt="options">
+            </button>
+            <div id="quest2" class="container">
+            <p class="font-semibold text-white text-base">Pantau Lingkungan adalah platform data interaktif dari Walhi yang digunakan untuk memantau penyelenggaraan dan pengelolaan wilayah Kelola rakyat senantiasa memperhatikan daya dukung ekologis sebagai pendukung kehidupan</p>
             </div>
             </div>
         </div>

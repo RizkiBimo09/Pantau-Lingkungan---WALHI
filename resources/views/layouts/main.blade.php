@@ -8,6 +8,13 @@
 
   @vite('resources/css/app.css')
   <title >WALHI | Home </title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
 </head>
 <body class="bg-gradient-to-b from-emerald-300 via-primary to-emerald-300">
 {{-- Navbar  start --}}
@@ -66,7 +73,7 @@
       <h2 class="font-bold text-2xl mb-5 text-green2">MENU</h2>
       <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/">BERANDA</a></h3>
       <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/pLingkungan">PANTAU LINGKUNGAN</a></h3>
-      <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="#">DASHBOARD</a></h3>
+      <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/dashboard">DASHBOARD</a></h3>
       <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/artikel">ARTIKEL</a></h3>
       <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/lapor">LAPOR</a></h3>
       <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/faq">FAQ</a></h3>

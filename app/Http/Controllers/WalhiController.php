@@ -2,7 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
+
 
 class WalhiController extends Controller
 {
@@ -53,5 +57,61 @@ class WalhiController extends Controller
         return view('pages.faq', [
             'title' => 'Faq'
         ]);
+    }
+    // menampilkan halaman login
+    public function Login()
+    {
+        return view('pages.login', [
+            'title' => 'Login'
+        ]);
+    }
+    // menampilkan halaman autentikasi
+    public function authenticate(Request $request)
+    {
+        $credentials = $request->validate([
+            'email' => 'required',
+            'password' => 'required'
+        ]);
+
+
+        if(Auth::attempt($credentials)) {
+            $request->session()->regenerate();
+            return redirect()->intended('/');
+        }
+
+        return back()->with('loginError', 'Login Failed!');
+
+    }
+    // menampilkan halaman autentikasi
+    public function Register()
+    {
+        return view('pages.register', [
+            'title' => 'Register'
+        ]);
+    }
+    public function store(Request $request)
+    {
+        $validateData = $request->validate([
+            'name' => 'required',
+            'email' => 'required|unique:users',
+            'password' => 'required'
+        ]);
+
+        $validateData['password'] = Hash::make($validateData['password']);
+
+        User::create($validateData);
+
+        return redirect('/login');
+    }
+    public function logout(){
+    
+    Auth::logout();
+    
+    request()->session()->invalidate();
+
+    request()->session()->regenerateToken();
+
+    return redirect('/');
+
     }
 }

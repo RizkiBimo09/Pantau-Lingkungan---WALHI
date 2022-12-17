@@ -21,4 +21,9 @@ Route::get('/detailartikel', [WalhiController::class, 'DetailArtikel']);
 Route::get('/lapor', [WalhiController::class, 'Lapor']);
 Route::get('/faq', [WalhiController::class, 'Faq']);
 Route::get('/dashboard', [WalhiController::class, 'Dashboard']);
+Route::get('/login', [WalhiController::class, 'Login']);
+Route::post('/login', [WalhiController::class, 'authenticate']);
+Route::get('/register', [WalhiController::class, 'register']);
+Route::post('/register', [WalhiController::class, 'store']);
+Route::post('/logout', [WalhiController::class, 'logout']);
 

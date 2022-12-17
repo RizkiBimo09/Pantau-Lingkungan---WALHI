@@ -15,6 +15,7 @@
  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
      integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
      crossorigin=""></script>
+     
 </head>
 <body class="bg-gradient-to-b from-emerald-300 via-primary to-emerald-300">
 {{-- Navbar  start --}}
@@ -32,6 +33,19 @@
     </button>
     <nav id="nav-menu" class="hidden absolute py-5 bg-green2 shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
       <ul class="block lg:flex">
+        @auth
+        <li class="group">
+          <form action="/logout" method="post">
+            @csrf
+      <button type="submit" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter  flex">LOGOUT </buttom>
+      </form>
+      </li>
+        @else
+        <li class="group">
+      <a href="/login" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter  flex">LOGIN </a>
+      </li>
+        @endauth
+      
       <li class="group">
       <a href="/" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter  flex">BERANDA </a>
       </li>
@@ -39,7 +53,7 @@
       <a href="/pLingkungan" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">PANTAU LINGKUNGAN </a>
       </li>
       <li class="group">
-      <a href="#home" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">DASHBOARD </a>
+      <a href="/dashboard" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">DASHBOARD </a>
       </li>
       <li class="group">
       <a href="/artikel" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">ARTIKEL </a>

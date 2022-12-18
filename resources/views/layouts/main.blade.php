@@ -1,11 +1,16 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
+<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style> @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); </style>
-  <script type="text/javascript" src="{{ URL::asset('js/jquery-3.6.1.js') }}"></script>
-
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/>
+      <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+     integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+     crossorigin=""></script>
+<script type="text/javascript" src="{{ URL::asset('js/jquery-3.6.1.js') }}"></script>
   @vite('resources/css/app.css')
   <title >WALHI | Home </title>
 </head>
@@ -32,7 +37,7 @@
       <a href="/pLingkungan" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">PANTAU LINGKUNGAN </a>
       </li>
       <li class="group">
-      <a href="#home" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">DASHBOARD </a>
+      <a href="/dashboard" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">DASHBOARD </a>
       </li>
       <li class="group">
       <a href="/artikel" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">ARTIKEL </a>
@@ -66,7 +71,7 @@
       <h2 class="font-bold text-2xl mb-5 text-green2">MENU</h2>
       <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/">BERANDA</a></h3>
       <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/pLingkungan">PANTAU LINGKUNGAN</a></h3>
-      <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="#">DASHBOARD</a></h3>
+      <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/dashboard">DASHBOARD</a></h3>
       <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/artikel">ARTIKEL</a></h3>
       <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/lapor">LAPOR</a></h3>
       <h3 class="font-bold text-xl mb-3 text-white hover:text-blue-500"><a href="/faq">FAQ</a></h3>

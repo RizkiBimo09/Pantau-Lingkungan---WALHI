@@ -20,13 +20,24 @@
     <div class="container">
     <div class="max-w-xl mx-auto text-justify mt-10">
       <h4 class="font-bold text-xl font-Inter text-white md:text-3xl lg:text-3xl mb-10 text-center">PANTAU LINGKUNGAN </h4>
-      <p class=" text-white text-xl mb-16 leading-relaxed ">Pantau Lingkungan adalah Wadah data interaktif oleh Wahana Lingkungan Hidup Indonesia (WALHI) untuk masyarakat yang bertujuan menyajikan informasi seputar dampak yang terjadi akibat dari proyek pmerintah atau swasta di Indonesia.</p>
+      <p class=" text-white text-xl mb-16 leading-relaxed ">#PantauLingkungan adalah wadah data interaktif yang dikelola oleh Wahana 
+        Lingkungan Hidup Indonesia (WALHI) untuk masyarakat yang bertujuan menyajikan informasi seputar dampak yang terjadi akibat dari proyek milik pemerintah atau swasta di Indonesia terhadap lingkungan hidup.</p>
       <h4 class="font-bold text-xl font-Inter text-white md:text-3xl lg:text-2xl mb-10 text-center">PERAN WALHI DALAM PANTAU LINGKUNGAN</h4>
-      <p class=" text-white text-xl mb-16 leading-relaxed ">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-</p>
-      <h4 class="font-bold text-xl font-Inter text-white md:text-3xl lg:text-3xl mb-10 text-center">REGULASI</h4>
-      <p class=" text-white text-xl mb-16 leading-relaxed">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-</p>
+      <p class=" text-white text-xl mb-16 leading-relaxed ">Sejak tahun 1980, WALHI terlibat aktif
+        mendorong upaya penyelamatan dan
+        pemulihan lingkungan hidup. Tidak hanya
+        pengakuan atas lingkungan hidup, WALHI juga mendorong terwujudnya perlindungan dan pemenuhan HAM sebagai tanggung jawab negara atas pemenuhan sumber-sumber kehidupan masyarakat. 
+        Di tengah perjuangan, tentu ada tantangan yang harus dihadapi. Kekuasaan oligarki atas negara dan kerusakan lingkungan yang semakin parah menuntut WALHI untuk melanjutkan perlawanan melalui cara yang strategis dengan menciptakan kader yang mumpuni dan tata organisasi yang baik. 
+
+        Untuk menciptakan tujuan tersebut, WALHI
+        membentuk Akademi Ekologi yang bertujuan untuk edukasi, kaderisasi, serta pelestarian dan pengembangan pengetahuan ekologi. 
+        Demi memastikan tata kelola organisasi berjalan baik, WALHI perlu menyusun dan menerapkan sistem dan mekanisme pengelolaan organisasi yang terstandar, mulai dari tingkat nasional hingga daerah. 
+        Salah satu upaya WALHI dalam menciptakan sistem yang terstandar adalah dengan mengembangkan laman web #PantauLingkungan sebagai wadah edukasi lingkungan hidup. 
+        #PantauLingkungan digunakan sebagai pemantau dan kritik atas pelaksanaan proyek-proyek pembangunan di Indonesia yang mengancam lingkungan hidup.
+      </p>
+      <h4 class="font-bold text-xl font-Inter text-white md:text-3xl lg:text-3xl mb-10 text-center">EKSEKUTIF NASIONAL</h4>
+      <p class=" text-white text-xl mb-16 leading-relaxed">Kantor Eksekutif Nasional WALHI berlokasi di 
+        Jl. Tegal Parang Utara No.14, RT.5/RW.4, Mampang Prpt., Kec. Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12790, Indonesia</p>
         </div>
     </div>
 </section>

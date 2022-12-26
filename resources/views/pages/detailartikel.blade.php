@@ -12,8 +12,14 @@
        <small class="text-sm text-white font-semibold ">Admin, 09 Desember 2022</small>
     </div>
     <div class="mt-10">
-    <img src="{{ asset('images/artikel/Artikel1.png') }}" alt="artikel" class="w-[750px]  mx-auto">
-    <p class="mt-10 text-justify text-xl text-white font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ea exercitationem eligendi quo dolorem temporibus facilis alias fugiat vitae adipisci. Ratione at blanditiis sequi ipsa animi consectetur corporis aspernatur pariatur voluptas hic, nobis impedit veniam? Animi reprehenderit perspiciatis soluta doloremque, autem deleniti saepe, voluptate labore inventore ratione iusto dolorem aspernatur dicta. Dolor aliquid natus voluptas et veniam atque sequi ad! Asperiores mollitia vitae obcaecati voluptatem in, dolorum cupiditate repellendus fugiat commodi illum nesciunt ducimus quia optio temporibus exercitationem non debitis incidunt? Eaque qui reprehenderit numquam, ut impedit expedita laudantium placeat? Excepturi perspiciatis facere itaque voluptatum inventore, aut commodi, odit a natus minus veritatis consequuntur optio doloribus architecto earum explicabo. Sit molestias porro odit minus magnam reiciendis aspernatur nobis unde, deserunt voluptas voluptate debitis ut, officia blanditiis? Quam vel delectus pariatur enim laudantium illo omnis exercitationem iusto, sed ratione sunt nisi perferendis id temporibus labore dicta cum ducimus excepturi, aspernatur natus similique eveniet? Id et, accusantium, ullam eaque voluptatum quae placeat eligendi suscipit ab tempora molestiae, at illum expedita. Nisi iure illo nobis suscipit, ratione nihil libero consequatur dolorem expedita nemo hic non molestias quo totam eum excepturi porro, voluptas dolor labore, in qui? Aspernatur optio incidunt nobis autem, magnam ducimus est dolores adipisci quasi modi exercitationem molestias ex minus nihil dolorem quas perferendis quam excepturi commodi a eius maxime eos! Amet ut velit facere, fuga eaque, minima cupiditate provident a quia accusamus quos harum omnis exercitationem, non corrupti alias quasi maxime iure magnam quibusdam qui cum. Delectus quam reprehenderit odit.</p>
+    <img src="{{ asset('images/artikel/AL 1.jpeg') }}" alt="artikel" class="w-[750px]  mx-auto">
+    <p class="mt-10 text-justify text-xl text-white font-semibold">
+    As COP27 and the G20 Summit begin to wind down, the updates so far are filled with news of scant outcomes and lack of agreement on key issues. World leaders and decision-makers assembled at these two important spaces to respond to the escalating global crises have a huge responsibility to deliver meaningful and tangible outcomes to save lives at this most critical time.
+
+    Today, November 16, we are waging actions across Asia and at COP27 to add our voices and demands to the global clamor for climate and economic justice! We reiterate the following demands:
+
+    https://walhi.or.id/uploads/APMDD%20STATEMENT%20-%20G20%20COP27%20Nov%2016%202022.pdf
+    </p>
     </div>
     </div>
     </div>

@@ -20,7 +20,7 @@
 <div class="container">
 <div class="flex items-center justify-between relative">
   <div class="px-4">
-    <a href="#" class="text-lg block py-6 "><img  src="{{  asset('images/logo/walhi-logo.png') }}" alt=""></a>
+    <a href="/" class="text-lg block py-6 "><img  src="{{  asset('images/logo/walhi-logo.png') }}" alt=""></a>
   </div>
   <div class="flex items-center px-4">
     <button id="hamburger" name="hamburger" type="button" class="block-absolute right-4 lg:hidden">
@@ -63,7 +63,7 @@
 <div class="container">
   <div class="flex flex-wrap">
   <div class="w-full px-4 mb-12 text-white md:w-1/3 font-Inter">
-    <img  class="bg-white rounded-full mb-5 hover:bg-blue-500"src="{{ asset('images/logo/WALHI.png') }}" alt="logo">
+    <a href="/"><img  class="bg-white rounded-full mb-5 hover:bg-blue-500"src="{{ asset('images/logo/WALHI.png') }}" alt="logo"></a>
     <h2 class="font-bold text-2xl mb-5">WAHANA LINGKUNGAN HIDUP INDONESIA</h2>
     <p class="">Jln. Tegal Parang Utara No 14, Jakarta Selatan 12790. Indonesia</p>
   </div>

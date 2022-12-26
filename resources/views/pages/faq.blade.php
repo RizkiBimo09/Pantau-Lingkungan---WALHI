@@ -22,7 +22,8 @@
             <button type="button" id="btn1" class="btn1 text-white   hover:focus:ring-2 hover:focus:outline-primary hover:focus:ring-primary font-medium rounded-lg text-sm text-center inline-flex float-right items-center mr-2"><img src="{{ asset('images/options.png') }}" alt="options">
             </button>
             <div id="quest1" class="container">
-            <p class="font-semibold text-white text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, quisquam!</p>
+            <p class="font-semibold text-white text-base">#PantauLingkungan adalah wadah data interaktif milik Wahana Lingkungan Hidup Indonesia (WALHI) yang menyajikan informasi seputar
+                 pelaksanaan proyek pembangunan milik pemerintah atau swasta di Indonesia. </p>
             </div>
             </div>
         </div>
@@ -32,7 +33,8 @@
             <button type="button" class="btn2 text-white   hover:focus:ring-2 hover:focus:outline-primary hover:focus:ring-primary font-medium rounded-lg text-sm text-center inline-flex float-right items-center mr-2"><img src="{{ asset('images/options.png') }}" alt="options">
             </button>
             <div id="quest2" class="container">
-            <p class="font-semibold text-white text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus impedit suscipit cum atque! Veniam in, facilis ut tenetur repellendus saepe dolor quae? Dolor eum vel corporis! Reprehenderit vero dolore provident.</p>
+            <p class="font-semibold text-white text-base">#PantauLingkungan bertujuan dalam memberikan edukasi ke masyarakat mengenai ancaman kerusakan lingkungan hidup yang hadir 
+                akibat proyek pembangunan milik pemerintah atau swasta di Indonesia. </p>
             </div>
             </div>
         </div>
@@ -42,17 +44,21 @@
             <button type="button" class="btn3 text-white   hover:focus:ring-2 hover:focus:outline-primary hover:focus:ring-primary font-medium rounded-lg text-sm text-center inline-flex float-right items-center mr-2"><img src="{{ asset('images/options.png') }}" alt="options">
             </button>
             <div id="quest3" class="container">
-            <p class="font-semibold text-white text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem obcaecati tempore tenetur sint, architecto soluta aut placeat explicabo. Numquam accusamus molestiae sapiente architecto. Excepturi, praesentium!</p>
+            <p class="font-semibold text-white text-base">Untuk mengakses Peta Ancaman dari proyek pembangunan di Indonesia, kunjungi laman pantaulingkungan.id. Kemudian pilih menu Dashboard di bagian atas laman #PantauLingkungan. 
+                Pilih tahun, wilayah, dan kategori proyek, lalu klik tampilkan data. </p>
             </div>
             </div>
         </div>
         <div class="w-full px-4 mb-8 mt-5 ">
             <div class="w-full px-4 bg-primary py-3 block">
-            <h4 class="text-lg font-semibold text-white inline-block">Bagaimana cara mengakses data izin usaha pertambangan?</h4> 
+            <h4 class="text-lg font-semibold text-white inline-block">Bagaimana cara membuat laporan?</h4> 
             <button type="button" class="btn4 text-white   hover:focus:ring-2 hover:focus:outline-primary hover:focus:ring-primary font-medium rounded-lg text-sm text-center inline-flex float-right items-center mr-2"><img src="{{ asset('images/options.png') }}" alt="options">
             </button>
             <div id="quest4" class="container">
-            <p class="font-semibold text-white text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat dolore asperiores aperiam similique ipsa atque, sapiente deserunt hic pariatur libero ullam impedit quam maxime repellendus, quasi dolorum reiciendis. Iusto harum dolores fugit. Deleniti eius, iusto iste vitae aliquam dolores ab id, recusandae velit earum enim perferendis debitis adipisci asperiores tenetur!</p>
+            <p class="font-semibold text-white text-base">1. Klik menu lapor</p>
+            <p class="font-semibold text-white text-base">2. Isi kolom yang telah disediakan</p>
+            <p class="font-semibold text-white text-base">3. Submit laporan</p>
+            <p class="font-semibold text-white text-base">4. Tunggu respon dan progress laporan melalui kontak yang telah dicantumkan</p>
             </div>
             </div>
         </div>

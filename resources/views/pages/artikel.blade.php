@@ -22,7 +22,8 @@
     <img src="{{ asset('images/artikel/Artikel1.png') }}" alt="artikel1" class="max-w-full mx-auto shadow hover:shadow-2xl">
     </div>
     <h1 class="font-bold mb-5 text-white mt-5 font-Inter text-xl ">To Governments at the COP27 and the G20 Summit: Deliver actions on climate and economic justice!</h1>
-    <p class="font-semibold text-white  font-Inter text-base mb-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut molestias aliquam corrupti reiciendis itaque modi! Culpa laborum consequatur fugit illum possimus alias deserunt hic, quod explicabo tempore sit voluptatem odit nobis dicta, illo corrupti accusantium corporis! Vero deserunt quos mollitia, earum atque, voluptatem est optio amet quasi rem aut accusantium?</p>
+    <p class="font-semibold text-white  font-Inter text-base mb-2 ">LAs COP27 and the G20 Summit begin to wind down, the updates so far are filled with news of scant outcomes and lack of agreement on key issues. World leaders and decision-makers assembled at these two important spaces to respond to the escalating global crises have a huge responsibility to deliver meaningful and tangible outcomes to save lives at this most critical time.
+</p>
       <small><a href="/detailartikel" class="text-green2 font-Inter font-semibold">Selengkapnya</a></small>
        <span class=" mt-5 flex text-sm text-white font-semibold">09-11-2022</span>
     </div>

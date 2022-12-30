@@ -34,7 +34,7 @@
       <a href="/" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter  flex">BERANDA </a>
       </li>
       <li class="group">
-      <a href="/pLingkungan" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">PANTAU LINGKUNGAN </a>
+      <a href="/pLingkungan-INA" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">PANTAU LINGKUNGAN </a>
       </li>
       <li class="group">
       <a href="/dashboard" class="text-base text-white py-2 mx-8 group-hover:text-blue-500 font-Inter flex">DASHBOARD </a>
@@ -78,16 +78,16 @@
   </div>
   <div class="w-full px-4 mb-12 md:w-1/3">
       <h2 class="font-bold text-2xl mb-5 text-green2">KONTAK KAMI</h2>
-      <h3 class="font-bold text-base mb-8 text-white font-Inter">
-      <a href="mailto:informasi@walhi.or.id"><img class="inline-block" src="{{ asset('images/logo/email-logo.png') }}" alt="email-logo"> informasi@walhi.or.id </a>
+      <h3 class="font-bold text-base mb-5 text-white hover:text-blue-500 font-Inter">
+      <a href="mailto:informasi@walhi.or.id"><img class="inline-block" src="{{ asset('images/logo/email-logo.png') }}" alt="email-logo"> informasi@walhi.or.id</a>
       </h3>
-      <h3 class="font-bold text-base mb-8 ml-5 text-white font-Inter">
-      <a href="https://web.facebook.com/WALHI"><img class="inline-block" src="{{ asset('images/logo/facebook-logo.png') }}" alt="facebook-logo"> WALHI</a>
+      <h3 class="font-bold text-base mb-5 text-white hover:text-blue-500 font-Inter">
+      <a href="https://web.facebook.com/WALHI"><img class="inline-block" src="{{ asset('images/logo/facebook-icon.png') }}" alt="facebook-logo"> WALHI</a>
       </h3>
-      <h3 class="font-bold text-base mb-8 text-white font-Inter">
-      <a href="https://twitter.com/walhinasional?t=ljAeOicyTWa0Sh17qnq4Eg&s=08"><img class="inline-block" src="{{ asset('images/logo/twitter-logo.png') }}" alt="twitter-logo"> @ walhinasional </a>
+      <h3 class="font-bold text-base mb-5 text-white hover:text-blue-500 font-Inter">
+      <a href="https://twitter.com/walhinasional?t=ljAeOicyTWa0Sh17qnq4Eg&s=08"><img class="inline-block" src="{{ asset('images/logo/twitter-logo.png') }}" alt="twitter-logo"> @ walhinasional</a>
       </h3>
-      <h3 class="font-bold text-base mb-8 text-white font-Inter">
+      <h3 class="font-bold text-base mb-8 text-white hover:text-blue-500 font-Inter">
       <a href="https://www.instagram.com/walhi.nasional/"><img class="inline-block" src="{{ asset('images/logo/ig-logo.png') }}" alt="instagram-logo"> @ walhi.nasional</a>
       </h3>
   </div>

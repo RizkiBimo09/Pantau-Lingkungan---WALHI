@@ -14,9 +14,15 @@ class WalhiController extends Controller
         ]);
     }
     // menampilkan halaman PeduliLingkungan
-    public function PLingkungan()
+    public function PLingkunganINA()
     {
-        return view('pages.PLingkungan', [
+        return view('pages.PLingkunganINA', [
+            'title' => 'Pantau Lingkungan'
+        ]);
+    }
+    public function PLingkunganEN()
+    {
+        return view('pages.PLingkunganEN', [
             'title' => 'Pantau Lingkungan'
         ]);
     }

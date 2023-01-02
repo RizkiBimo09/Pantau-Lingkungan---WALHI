@@ -12,7 +12,7 @@
      crossorigin=""></script>
 <script type="text/javascript" src="{{ URL::asset('js/jquery-3.6.1.js') }}"></script>
   @vite('resources/css/app.css')
-  <title >WALHI | Home </title>
+  <title >WALHI | {{ $title }} </title>
 </head>
 <body class="bg-gradient-to-b from-emerald-300 via-primary to-emerald-300">
 {{-- Navbar  start --}}

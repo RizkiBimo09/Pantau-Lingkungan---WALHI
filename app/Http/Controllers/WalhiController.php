@@ -1,8 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Models\Artikel;
+use App\Models\Lapor;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Lang;
 
 class WalhiController extends Controller
 {
@@ -10,7 +12,8 @@ class WalhiController extends Controller
     public function Home()
     {
         return view('pages.home', [
-            'title' => 'Home'
+            'title' => 'Home',
+            'artikels' => Artikel::latest()->paginate(3)
         ]);
     }
     // menampilkan halaman PeduliLingkungan
@@ -37,13 +40,23 @@ class WalhiController extends Controller
     public function Artikel()
     {
         return view('pages.artikel', [
-            'title' => 'Artikel'
+            'title' => 'Artikel',
+            'artikels' => Artikel::latest()->paginate(6)
         ]);
     }
-    public function DetailArtikel()
+    public function DetailArtikel($id)
     {
         return view('pages.detailartikel', [
-            'title' => 'Artikel'
+            'title' => 'Artikel',
+            'artikel' => Artikel::find($id) 
+        ]);
+    }
+    public function AllArtikel()
+    {
+        
+        return view('pages.Allartikel', [
+            'title' => 'Artikel',
+            'artikels' => Artikel::all()
         ]);
     }
     // menampilkan halaman laporan
@@ -53,6 +66,18 @@ class WalhiController extends Controller
             'title' => 'Lapor'
         ]);
     }
+    public function store(Request $request){
+        $validasi = $request->validate([
+            'lokasi' => 'required',
+            'peristiwa' => 'required',
+            'organisasi' => 'required',
+            'media' => 'required',
+            'kontak' => 'required',
+        ]);
+        Lapor::create($validasi);
+        return redirect('/lapor')->with('success', 'Laporan Telah Dikirim');
+    }
+    
     // menampilkan halaman faq
     public function Faq()
     {

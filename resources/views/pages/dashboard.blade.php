@@ -75,7 +75,6 @@
       maxZoom: 19,
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
-    // L.geoJSON(data1).addTo(map);
     L.geoJSON(data).addTo(map);
     
   var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
@@ -158,11 +157,7 @@
   var marker = L.marker([-8.594615036851895, 117.46340275758936], {alt: 'Nusa Tenggara Barat'}).addTo(map)
       .bindPopup('Titik Bencana');
   var marker = L.marker([-8.33438202602227, 115.09440238091376], {alt: 'Bali'}).addTo(map)
-      .bindPopup('Titik Bencana');
-	
-
-    
-
+      .bindPopup('Titik Bencana');   
 // Menabahkan warna pada peta
   function getColor(d) {
     return d > 5000.0 ? '#800026' :
@@ -227,7 +222,6 @@ geojson = L.geoJson(data, {
 }).addTo(map);
 
 //Kontrol informasi peta
-
 var info = L.control();
 
 info.onAdd = function (map) {
@@ -235,7 +229,6 @@ info.onAdd = function (map) {
     this.update();
     return this._div;
 };
-
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
     this._div.innerHTML = '<h4>Data Izin (Pertambangan & Perkebunan)</h4>' +  (props ?
@@ -260,7 +253,6 @@ function highlightFeature(e) {
 
 		info.update(layer.feature.properties);
 	}
-
  /* global statesData */
  var geojson = L.geoJson(data, {
 		style,
@@ -283,8 +275,7 @@ function highlightFeature(e) {
 			click: zoomToFeature
 		});
 	}
-
-  // Legend dalam peta
+ // Legend dalam peta
   var legend = L.control({position: 'bottomright'});
 
   legend.onAdd = function (map) {
@@ -292,7 +283,6 @@ function highlightFeature(e) {
       var div = L.DomUtil.create('div', 'info legend'),
           grades = [0, 10, 20, 50, 100, 200, 500, 1000],
           labels = [];
-
       // loop through our density intervals and generate a label with a colored square for each interval
       for (var i = 0; i < grades.length; i++) {
           div.innerHTML +=
@@ -302,11 +292,7 @@ function highlightFeature(e) {
 
       return div;
   };
-
   legend.addTo(map);
-
-
-
 </script>
     </div>
 </section>
@@ -318,11 +304,11 @@ function highlightFeature(e) {
     <div class="flex flex-wrap">
     <div class="w-full px-4 mb-10 lg:w-1/3">
     <div class="mt-10">
-    <!-- <h4 class="text-xl mb-2 p-2">Data Terbaru</h4>
-    <hr> -->
       <table class="mt-2 w-full table-auto bg-white text-black text-left border">
   <thead>
     <tr>
+    <h4 class="text-base mb-2 p-2 font-bold text-white">DATA SEBARAN LOKASI (Provinsi)</h4>
+    <hr>
       <th class="bg-green2 text-left text-white font-extrabold font-Inter">Berdasarkan Provinsi</th>
       <th class="bg-green2 text-left text-white font-extrabold font-Inter">Jumlah</th>
     </tr>
@@ -354,28 +340,29 @@ function highlightFeature(e) {
     </div>
     <div class="w-full px-4 mb-10 lg:w-1/3">
      <div class="mt-10">
-        <div class="mb-3"></div>
       <table class="w-full table-auto bg-white text-black text-left border">
   <thead>
-    <tr class="border-b">
-      <th class="bg-green2 text-left text-white font-extrabold font-Inter">Berdasarkan Jenis</th>
+    <tr>
+    <h4 class="text-base mb-2 p-2 font-bold text-white">DATA SEBARAN LOKASI (Komoditas)</h4>
+    <hr class="mb-2.5">
+      <th class="bg-green2 text-left text-white font-extrabold font-Inter">Berdasarkan Komoditas</th>
       <th class="bg-green2 text-left text-white font-extrabold font-Inter">Jumlah</th>
       <th class="bg-green2 text-left text-white font-extrabold font-Inter">Luas</th>
     </tr>
   </thead>
   <tbody>
     <tr class="border-b">
-      <td>PS</td>
+      <td>EMAS</td>
       <td>2.601</td>
       <td>3 JUTA</td>
     </tr>
     <tr class="border-b">
-      <td>HUTAN ADAT</td>
+      <td>PASIR</td>
       <td>763</td>
       <td>8 JUTA</td>
     </tr>
     <tr class="border-b">
-      <td>TORA</td>
+      <td>BATUBARA</td>
       <td>62</td>
       <td>157.407</td>
     </tr>
@@ -452,7 +439,7 @@ function highlightFeature(e) {
              <div class="mt-10 ">
     <div class="divide text-black ">
     <h4 class="text-base font-bold text-white mb-2 p-2">STATUS TAHAPAN</h4>
-    <hr > 
+    <hr> 
     <img src="{{ asset('images/chart.png') }}" alt="" class="">
     </div>
     </div>
@@ -460,7 +447,6 @@ function highlightFeature(e) {
      <div class="w-full px-4 lg:w-1/3 overflow-y-auto relative">
         </div>
        </div>
-   
     </section>
 {{-- end section  artikel --}}
 

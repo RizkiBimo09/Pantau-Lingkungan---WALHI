@@ -5,8 +5,8 @@
 
 <style>
   .img-artikel {
-    height: 200px;
-    width: 350px;
+    height: 255px;
+    width: 400px;
   }
 </style>
 
